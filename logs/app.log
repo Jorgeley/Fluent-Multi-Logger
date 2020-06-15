@@ -1,0 +1,2 @@
+[2020-06-15 15:48:56,510] DEBUG - /Users/jorgeley.oliveira/PythonProjects/FluentMultiLog/src/Log.py:to_file() -> testing AppLog to file
+[2020-06-15 15:55:51,759] DEBUG - /Users/jorgeley.oliveira/PythonProjects/FluentMultiLog/src/Log.py:to_file() -> this will be logged in a specific format and file according to what is defined in the AppLog class

@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: fluent-multi-log
+Version: 0.0.1
+Summary: A fluent multi log project
+Home-page: UNKNOWN
+Author: Jorgeley
+Author-email: jorgeley@gmail.com
+License: UNKNOWN
+Description: ## Fluent Multi Log
+        This is a multi log fluent classes project, the main idea is to have different logs files, formats etc.
+        
+        The main Log class has all the main methods, the AnotherLog and AnotherOneLog extend it and have their own format and configuration.
+        
+        It can be extended to implement more functionalities.
+        
+        ###Installation 
+        * Clone this repository and cd into it
+        * Install dependencies:
+            * `pip3 install -r requirements.txt`
+        * Add the path project to Python path:
+            * `pip3 install -e .`
+        
+        \* ***you can also use pipenv if you want***.
+        
+        ###Run
+        Before running it, create log directories manually (if not already created):
+        * `mkdir ./logs`
+        
+        * Also, give permission to whoever is running the app:
+            * `chown youruser:yourgroup ./logs`
+            * `chmod 775 ./logs`
+        
+        to run the app just do (considering you're into main folder):
+        
+        `python3 src/main.py`
+        
+        ####Author
+        >jorgeley@gmail.com
+Keywords: logger,fluent
+Platform: UNKNOWN
+Requires-Python: >=3
+Description-Content-Type: text/markdown

@@ -1,0 +1,1183 @@
+versions pytest-5.4.3, py-1.8.1, python-3.7.4.final.0
+cwd=/Users/jorgeley.oliveira/PythonProjects/FluentMultiLog
+args=('--debug', '-v', 'tests/')
+
+  pytest_cmdline_main [hook]
+      config: <_pytest.config.Config object at 0x1038b5e50>
+    pytest_plugin_registered [hook]
+        plugin: <Session FluentMultiLog exitstatus=None testsfailed=0 testscollected=0>
+        manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+    finish pytest_plugin_registered --> [] [hook]
+    pytest_configure [hook]
+        config: <_pytest.config.Config object at 0x1038b5e50>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x1039d56d0>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x1039d59d0>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+    find_module called for: faulthandler [assertion]
+      pytest_configure [hook]
+          config: <_pytest.config.Config object at 0x1038b5e50>
+      finish pytest_configure --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.faulthandler.FaultHandlerHooks object at 0x103a5e050>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.stepwise.StepwisePlugin object at 0x103a5e890>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+    find_module called for: pdb [assertion]
+    find_module called for: cmd [assertion]
+    find_module called for: code [assertion]
+    find_module called for: codeop [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x1038b5e50>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/mark/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/main.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/runner.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/fixtures.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/helpconfig.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/python.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/terminal.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/debugging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/unittest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/capture.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/skipping.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/tmpdir.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/monkeypatch.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/recwarn.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/pastebin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.nose' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/nose.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/assertion/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/junitxml.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.resultlog' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/resultlog.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/doctest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/cacheprovider.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/freeze_support.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/setuponly.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/setupplan.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/stepwise.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/warnings.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/logging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/reports.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/faulthandler.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=5 _state='suspended' tmpfile=<_pytest.capture.EncodedFile object at 0x1039f5d50>> err=<FDCapture 2 oldfd=6 _state='suspended' tmpfile=<_pytest.capture.EncodedFile object at 0x103a06210>> in_=<FDCapture 0 oldfd=3 _state='started' tmpfile=<_io.TextIOWrapper name='/dev/null' mode='r' encoding='UTF-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session FluentMultiLog exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x1039d56d0>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x1039d59d0>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.faulthandler.FaultHandlerHooks object at 0x103a5e050>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.stepwise.StepwisePlugin object at 0x103a5e890>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x103a5e950>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x103a90c10>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+    finish pytest_configure --> [] [hook]
+    pytest_sessionstart [hook]
+        session: <Session FluentMultiLog exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x1038b5e50>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/mark/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/main.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/runner.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/fixtures.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/helpconfig.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/python.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/terminal.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/debugging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/unittest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/capture.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/skipping.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/tmpdir.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/monkeypatch.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/recwarn.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/pastebin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.nose' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/nose.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/assertion/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/junitxml.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.resultlog' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/resultlog.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/doctest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/cacheprovider.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/freeze_support.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/setuponly.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/setupplan.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/stepwise.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/warnings.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/logging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/reports.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/faulthandler.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=5 _state='suspended' tmpfile=<_pytest.capture.EncodedFile object at 0x1039f5d50>> err=<FDCapture 2 oldfd=6 _state='suspended' tmpfile=<_pytest.capture.EncodedFile object at 0x103a06210>> in_=<FDCapture 0 oldfd=3 _state='started' tmpfile=<_io.TextIOWrapper name='/dev/null' mode='r' encoding='UTF-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session FluentMultiLog exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x1039d56d0>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x1039d59d0>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.faulthandler.FaultHandlerHooks object at 0x103a5e050>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.stepwise.StepwisePlugin object at 0x103a5e890>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x103a5e950>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x103a90c10>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.fixtures.FixtureManager object at 0x103a721d0>
+          manager: <_pytest.config.PytestPluginManager object at 0x102d188d0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_report_header [hook]
+          config: <_pytest.config.Config object at 0x1038b5e50>
+          startdir: /Users/jorgeley.oliveira/PythonProjects/FluentMultiLog
+      finish pytest_report_header --> [['rootdir: /Users/jorgeley.oliveira/PythonProjects/FluentMultiLog, inifile: setup.cfg'], 'cachedir: .pytest_cache', ['using: pytest-5.4.3 pylib-1.8.1']] [hook]
+    finish pytest_sessionstart --> [] [hook]
+    pytest_collection [hook]
+        session: <Session FluentMultiLog exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+    perform_collect <Session FluentMultiLog exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0> ['tests/'] [collection]
+        pytest_collectstart [hook]
+            collector: <Session FluentMultiLog exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        finish pytest_collectstart --> [] [hook]
+        pytest_make_collect_report [hook]
+            collector: <Session FluentMultiLog exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        processing argument (local('/Users/jorgeley.oliveira/PythonProjects/FluentMultiLog/tests'), []) [collection]
+            pytest_ignore_collect [hook]
+                path: /Users/jorgeley.oliveira/PythonProjects/FluentMultiLog/tests/test_log.py
+                config: <_pytest.config.Config object at 0x1038b5e50>
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                path: /Users/jorgeley.oliveira/PythonProjects/FluentMultiLog/tests/test_log.py
+                parent: <Session FluentMultiLog exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+              pytest_pycollect_makemodule [hook]
+                  path: /Users/jorgeley.oliveira/PythonProjects/FluentMultiLog/tests/test_log.py
+                  parent: <Session FluentMultiLog exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+              finish pytest_pycollect_makemodule --> <Module tests/test_log.py> [hook]
+            finish pytest_collect_file --> [<Module tests/test_log.py>] [hook]
+        finish pytest_make_collect_report --> <CollectReport '' lenresult=1 outcome='passed'> [hook]
+        pytest_collectreport [hook]
+            report: <CollectReport '' lenresult=1 outcome='passed'>
+        finish pytest_collectreport --> [] [hook]
+    genitems <Module tests/test_log.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module tests/test_log.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module tests/test_log.py>
+      find_module called for: test_log [assertion]
+      matched test file '/Users/jorgeley.oliveira/PythonProjects/FluentMultiLog/tests/test_log.py' [assertion]
+      rewriting PosixPath('/Users/jorgeley.oliveira/PythonProjects/FluentMultiLog/tests/test_log.py') [assertion]
+      find_module called for: src [assertion]
+      find_module called for: src.AppLog [assertion]
+      find_module called for: src.Log [assertion]
+      find_module called for: logging.handlers [assertion]
+      find_module called for: pickle [assertion]
+      find_module called for: _compat_pickle [assertion]
+      find_module called for: org [assertion]
+      find_module called for: _pickle [assertion]
+      find_module called for: queue [assertion]
+      find_module called for: _queue [assertion]
+      find_module called for: smtplib [assertion]
+      find_module called for: email.generator [assertion]
+      find_module called for: hmac [assertion]
+      find_module called for: ssl [assertion]
+      find_module called for: _ssl [assertion]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_log.py>
+            name: __name__
+            obj: test_log
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_log.py>
+            name: __doc__
+            obj: None
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_log.py>
+            name: __package__
+            obj: 
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_log.py>
+            name: __loader__
+            obj: <_pytest.assertion.rewrite.AssertionRewritingHook object at 0x1039dd990>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_log.py>
+            name: __spec__
+            obj: ModuleSpec(name='test_log', loader=<_pytest.assertion.rewrite.AssertionRewritingHook object at 0x1039dd990>, origin='/Users/jorgeley.oliveira/PythonProjects/FluentMultiLog/tests/test_log.py')
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_log.py>
+            name: __file__
+            obj: /Users/jorgeley.oliveira/PythonProjects/FluentMultiLog/tests/test_log.py
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_log.py>
+            name: __cached__
+            obj: /Users/jorgeley.oliveira/PythonProjects/FluentMultiLog/tests/__pycache__/test_log.cpython-37.pyc
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_log.py>
+            name: __builtins__
+            obj: {'__name__': 'builtins', '__doc__': "Built-in functions, exceptions, and other objects.\n\nNoteworthy: None is the `nil' object; Ellipsis represents `...' in slices.", '__package__': '', '__loader__': <class '_frozen_importlib.BuiltinImporter'>, '__spec__': ModuleSpec(name='builtins', loader=<class '_frozen_importlib.BuiltinImporter'>), '__build_class__': <built-in function __build_class__>, '__import__': <built-in function __import__>, 'abs': <built-in function abs>, 'all': <built-in function all>, 'any': <built-in function any>, 'ascii': <built-in function ascii>, 'bin': <built-in function bin>, 'breakpoint': <built-in function breakpoint>, 'callable': <built-in function callable>, 'chr': <built-in function chr>, 'compile': <built-in function compile>, 'delattr': <built-in function delattr>, 'dir': <built-in function dir>, 'divmod': <built-in function divmod>, 'eval': <built-in function eval>, 'exec': <built-in function exec>, 'format': <built-in function format>, 'getattr': <built-in function getattr>, 'globals': <built-in function globals>, 'hasattr': <built-in function hasattr>, 'hash': <built-in function hash>, 'hex': <built-in function hex>, 'id': <built-in function id>, 'input': <built-in function input>, 'isinstance': <built-in function isinstance>, 'issubclass': <built-in function issubclass>, 'iter': <built-in function iter>, 'len': <built-in function len>, 'locals': <built-in function locals>, 'max': <built-in function max>, 'min': <built-in function min>, 'next': <built-in function next>, 'oct': <built-in function oct>, 'ord': <built-in function ord>, 'pow': <built-in function pow>, 'print': <built-in function print>, 'repr': <built-in function repr>, 'round': <built-in function round>, 'setattr': <built-in function setattr>, 'sorted': <built-in function sorted>, 'sum': <built-in function sum>, 'vars': <built-in function vars>, 'None': None, 'Ellipsis': Ellipsis, 'NotImplemented': NotImplemented, 'False': False, 'True': True, 'bool': <class 'bool'>, 'memoryview': <class 'memoryview'>, 'bytearray': <class 'bytearray'>, 'bytes': <class 'bytes'>, 'classmethod': <class 'classmethod'>, 'complex': <class 'complex'>, 'dict': <class 'dict'>, 'enumerate': <class 'enumerate'>, 'filter': <class 'filter'>, 'float': <class 'float'>, 'frozenset': <class 'frozenset'>, 'property': <class 'property'>, 'int': <class 'int'>, 'list': <class 'list'>, 'map': <class 'map'>, 'object': <class 'object'>, 'range': <class 'range'>, 'reversed': <class 'reversed'>, 'set': <class 'set'>, 'slice': <class 'slice'>, 'staticmethod': <class 'staticmethod'>, 'str': <class 'str'>, 'super': <class 'super'>, 'tuple': <class 'tuple'>, 'type': <class 'type'>, 'zip': <class 'zip'>, '__debug__': True, 'BaseException': <class 'BaseException'>, 'Exception': <class 'Exception'>, 'TypeError': <class 'TypeError'>, 'StopAsyncIteration': <class 'StopAsyncIteration'>, 'StopIteration': <class 'StopIteration'>, 'GeneratorExit': <class 'GeneratorExit'>, 'SystemExit': <class 'SystemExit'>, 'KeyboardInterrupt': <class 'KeyboardInterrupt'>, 'ImportError': <class 'ImportError'>, 'ModuleNotFoundError': <class 'ModuleNotFoundError'>, 'OSError': <class 'OSError'>, 'EnvironmentError': <class 'OSError'>, 'IOError': <class 'OSError'>, 'EOFError': <class 'EOFError'>, 'RuntimeError': <class 'RuntimeError'>, 'RecursionError': <class 'RecursionError'>, 'NotImplementedError': <class 'NotImplementedError'>, 'NameError': <class 'NameError'>, 'UnboundLocalError': <class 'UnboundLocalError'>, 'AttributeError': <class 'AttributeError'>, 'SyntaxError': <class 'SyntaxError'>, 'IndentationError': <class 'IndentationError'>, 'TabError': <class 'TabError'>, 'LookupError': <class 'LookupError'>, 'IndexError': <class 'IndexError'>, 'KeyError': <class 'KeyError'>, 'ValueError': <class 'ValueError'>, 'UnicodeError': <class 'UnicodeError'>, 'UnicodeEncodeError': <class 'UnicodeEncodeError'>, 'UnicodeDecodeError': <class 'UnicodeDecodeError'>, 'UnicodeTranslateError': <class 'UnicodeTranslateError'>, 'AssertionError': <class 'AssertionError'>, 'ArithmeticError': <class 'ArithmeticError'>, 'FloatingPointError': <class 'FloatingPointError'>, 'OverflowError': <class 'OverflowError'>, 'ZeroDivisionError': <class 'ZeroDivisionError'>, 'SystemError': <class 'SystemError'>, 'ReferenceError': <class 'ReferenceError'>, 'MemoryError': <class 'MemoryError'>, 'BufferError': <class 'BufferError'>, 'Warning': <class 'Warning'>, 'UserWarning': <class 'UserWarning'>, 'DeprecationWarning': <class 'DeprecationWarning'>, 'PendingDeprecationWarning': <class 'PendingDeprecationWarning'>, 'SyntaxWarning': <class 'SyntaxWarning'>, 'RuntimeWarning': <class 'RuntimeWarning'>, 'FutureWarning': <class 'FutureWarning'>, 'ImportWarning': <class 'ImportWarning'>, 'UnicodeWarning': <class 'UnicodeWarning'>, 'BytesWarning': <class 'BytesWarning'>, 'ResourceWarning': <class 'ResourceWarning'>, 'ConnectionError': <class 'ConnectionError'>, 'BlockingIOError': <class 'BlockingIOError'>, 'BrokenPipeError': <class 'BrokenPipeError'>, 'ChildProcessError': <class 'ChildProcessError'>, 'ConnectionAbortedError': <class 'ConnectionAbortedError'>, 'ConnectionRefusedError': <class 'ConnectionRefusedError'>, 'ConnectionResetError': <class 'ConnectionResetError'>, 'FileExistsError': <class 'FileExistsError'>, 'FileNotFoundError': <class 'FileNotFoundError'>, 'IsADirectoryError': <class 'IsADirectoryError'>, 'NotADirectoryError': <class 'NotADirectoryError'>, 'InterruptedError': <class 'InterruptedError'>, 'PermissionError': <class 'PermissionError'>, 'ProcessLookupError': <class 'ProcessLookupError'>, 'TimeoutError': <class 'TimeoutError'>, 'open': <built-in function open>, 'quit': Use quit() or Ctrl-D (i.e. EOF) to exit, 'exit': Use exit() or Ctrl-D (i.e. EOF) to exit, 'copyright': Copyright (c) 2001-2019 Python Software Foundation.
+All Rights Reserved.
+
+Copyright (c) 2000 BeOpen.com.
+All Rights Reserved.
+
+Copyright (c) 1995-2001 Corporation for National Research Initiatives.
+All Rights Reserved.
+
+Copyright (c) 1991-1995 Stichting Mathematisch Centrum, Amsterdam.
+All Rights Reserved., 'credits':     Thanks to CWI, CNRI, BeOpen.com, Zope Corporation and a cast of thousands
+    for supporting Python development.  See www.python.org for more information., 'license': Type license() to see the full license text, 'help': Type help() for interactive help, or help(object) for help about object.}
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_log.py>
+            name: @py_builtins
+            obj: <module 'builtins' (built-in)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_log.py>
+            name: @pytest_ar
+            obj: <module '_pytest.assertion.rewrite' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/_pytest/assertion/rewrite.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_log.py>
+            name: pytest
+            obj: <module 'pytest' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/lib/python3.7/site-packages/pytest/__init__.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_log.py>
+            name: os
+            obj: <module 'os' from '/Users/jorgeley.oliveira/.local/share/virtualenvs/jorgeley.oliveira-tpyDpdD7/bin/../lib/python3.7/os.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_log.py>
+            name: datetime
+            obj: <class 'datetime.datetime'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_log.py>
+            name: Formatter
+            obj: <class 'logging.Formatter'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_log.py>
+            name: LogRecord
+            obj: <class 'logging.LogRecord'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_log.py>
+            name: AppLog
+            obj: <class 'src.AppLog.AppLog'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_log.py>
+            name: Log
+            obj: <class 'src.Log.Log'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_log.py>
+            name: setup_function
+            obj: <function setup_function at 0x103a8f560>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_log.py>
+            name: teardown_function
+            obj: <function teardown_function at 0x103a8fef0>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_log.py>
+            name: test_instance
+            obj: <function test_instance at 0x103a8fe60>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x103b0d390>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_instance>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_log.py>
+            name: test_msg
+            obj: <function test_msg at 0x103a8fcb0>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x103b0d390>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_msg>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_log.py>
+            name: test_rotate
+            obj: <function test_rotate at 0x103ad1200>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x103b0d390>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_rotate>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_log.py>
+            name: test_to_file
+            obj: <function test_to_file at 0x103ae23b0>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x103b0d390>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_to_file>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_log.py>
+            name: test_report
+            obj: <function test_report at 0x103b14b90>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x103b0d390>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_report>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_log.py>
+            name: test_send_log
+            obj: <function test_send_log at 0x103b145f0>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x103b68cd0>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_send_log>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_log.py>
+            name: _Module__pytest_setup_function
+            obj: <function Module._inject_setup_function_fixture.<locals>.xunit_setup_function_fixture at 0x103a8f5f0>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_log.py>
+            name: __repr__
+            obj: <slot wrapper '__repr__' of 'module' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_log.py>
+            name: __getattribute__
+            obj: <slot wrapper '__getattribute__' of 'module' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_log.py>
+            name: __setattr__
+            obj: <slot wrapper '__setattr__' of 'module' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_log.py>
+            name: __delattr__
+            obj: <slot wrapper '__delattr__' of 'module' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_log.py>
+            name: __init__
+            obj: <slot wrapper '__init__' of 'module' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_log.py>
+            name: __new__
+            obj: <built-in method __new__ of type object at 0x102a59a50>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_log.py>
+            name: __dir__
+            obj: <method '__dir__' of 'module' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_log.py>
+            name: __dict__
+            obj: <member '__dict__' of 'module' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_log.py>
+            name: __hash__
+            obj: <slot wrapper '__hash__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_log.py>
+            name: __str__
+            obj: <slot wrapper '__str__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_log.py>
+            name: __lt__
+            obj: <slot wrapper '__lt__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_log.py>
+            name: __le__
+            obj: <slot wrapper '__le__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_log.py>
+            name: __eq__
+            obj: <slot wrapper '__eq__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_log.py>
+            name: __ne__
+            obj: <slot wrapper '__ne__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_log.py>
+            name: __gt__
+            obj: <slot wrapper '__gt__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_log.py>
+            name: __ge__
+            obj: <slot wrapper '__ge__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_log.py>
+            name: __reduce_ex__
+            obj: <method '__reduce_ex__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_log.py>
+            name: __reduce__
+            obj: <method '__reduce__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_log.py>
+            name: __subclasshook__
+            obj: <method '__subclasshook__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_log.py>
+            name: __init_subclass__
+            obj: <method '__init_subclass__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_log.py>
+            name: __format__
+            obj: <method '__format__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_log.py>
+            name: __sizeof__
+            obj: <method '__sizeof__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/test_log.py>
+            name: __class__
+            obj: <attribute '__class__' of 'object' objects>
+        finish pytest_pycollect_makeitem --> None [hook]
+      finish pytest_make_collect_report --> <CollectReport 'tests/test_log.py' lenresult=6 outcome='passed'> [hook]
+    genitems <Function test_instance> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_instance>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_msg> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_msg>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_rotate> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_rotate>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_to_file> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_to_file>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_report> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_report>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_send_log> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_send_log>
+      finish pytest_itemcollected --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests/test_log.py' lenresult=6 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collection_modifyitems [hook]
+          session: <Session FluentMultiLog exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          config: <_pytest.config.Config object at 0x1038b5e50>
+          items: [<Function test_instance>, <Function test_msg>, <Function test_rotate>, <Function test_to_file>, <Function test_report>, <Function test_send_log>]
+      finish pytest_collection_modifyitems --> [] [hook]
+      pytest_collection_finish [hook]
+          session: <Session FluentMultiLog exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        pytest_report_collectionfinish [hook]
+            config: <_pytest.config.Config object at 0x1038b5e50>
+            startdir: /Users/jorgeley.oliveira/PythonProjects/FluentMultiLog
+            items: [<Function test_instance>, <Function test_msg>, <Function test_rotate>, <Function test_to_file>, <Function test_report>, <Function test_send_log>]
+        finish pytest_report_collectionfinish --> [] [hook]
+      finish pytest_collection_finish --> [] [hook]
+    finish pytest_collection --> [<Function test_instance>, <Function test_msg>, <Function test_rotate>, <Function test_to_file>, <Function test_report>, <Function test_send_log>] [hook]
+    pytest_runtestloop [hook]
+        session: <Session FluentMultiLog exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=6>
+      pytest_runtest_protocol [hook]
+          item: <Function test_instance>
+          nextitem: <Function test_msg>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_log.py::test_instance
+            location: ('tests/test_log.py', 16, 'test_instance')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_instance>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='_Module__pytest_setup_function' scope='function' baseid='tests/test_log.py'>
+              request: <SubRequest '_Module__pytest_setup_function' for <Function test_instance>>
+          finish pytest_fixture_setup --> None [hook]
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_instance>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_log.py::test_instance' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_log.py::test_instance' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_log.py::test_instance' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x1038b5e50>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_instance>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_instance>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_instance>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_log.py::test_instance' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_log.py::test_instance' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_log.py::test_instance' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x1038b5e50>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_instance>
+            nextitem: <Function test_msg>
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_Module__pytest_setup_function' scope='function' baseid='tests/test_log.py'>
+              request: <SubRequest '_Module__pytest_setup_function' for <Function test_instance>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_instance>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_log.py::test_instance' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_log.py::test_instance' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_log.py::test_instance' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x1038b5e50>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/test_log.py::test_instance
+            location: ('tests/test_log.py', 16, 'test_instance')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_msg>
+          nextitem: <Function test_rotate>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_log.py::test_msg
+            location: ('tests/test_log.py', 20, 'test_msg')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_msg>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='_Module__pytest_setup_function' scope='function' baseid='tests/test_log.py'>
+              request: <SubRequest '_Module__pytest_setup_function' for <Function test_msg>>
+          finish pytest_fixture_setup --> None [hook]
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_msg>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_log.py::test_msg' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_log.py::test_msg' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_log.py::test_msg' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x1038b5e50>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_msg>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_msg>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_msg>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_log.py::test_msg' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_log.py::test_msg' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_log.py::test_msg' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x1038b5e50>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_msg>
+            nextitem: <Function test_rotate>
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_Module__pytest_setup_function' scope='function' baseid='tests/test_log.py'>
+              request: <SubRequest '_Module__pytest_setup_function' for <Function test_msg>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_msg>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_log.py::test_msg' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_log.py::test_msg' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_log.py::test_msg' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x1038b5e50>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/test_log.py::test_msg
+            location: ('tests/test_log.py', 20, 'test_msg')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_rotate>
+          nextitem: <Function test_to_file>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_log.py::test_rotate
+            location: ('tests/test_log.py', 25, 'test_rotate')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_rotate>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='_Module__pytest_setup_function' scope='function' baseid='tests/test_log.py'>
+              request: <SubRequest '_Module__pytest_setup_function' for <Function test_rotate>>
+          finish pytest_fixture_setup --> None [hook]
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_rotate>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_log.py::test_rotate' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_log.py::test_rotate' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_log.py::test_rotate' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x1038b5e50>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_rotate>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_rotate>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_rotate>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_log.py::test_rotate' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_log.py::test_rotate' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_log.py::test_rotate' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x1038b5e50>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_rotate>
+            nextitem: <Function test_to_file>
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_Module__pytest_setup_function' scope='function' baseid='tests/test_log.py'>
+              request: <SubRequest '_Module__pytest_setup_function' for <Function test_rotate>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_rotate>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_log.py::test_rotate' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_log.py::test_rotate' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_log.py::test_rotate' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x1038b5e50>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/test_log.py::test_rotate
+            location: ('tests/test_log.py', 25, 'test_rotate')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_to_file>
+          nextitem: <Function test_report>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_log.py::test_to_file
+            location: ('tests/test_log.py', 31, 'test_to_file')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_to_file>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='_Module__pytest_setup_function' scope='function' baseid='tests/test_log.py'>
+              request: <SubRequest '_Module__pytest_setup_function' for <Function test_to_file>>
+          finish pytest_fixture_setup --> None [hook]
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_to_file>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_log.py::test_to_file' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_log.py::test_to_file' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_log.py::test_to_file' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x1038b5e50>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_to_file>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_to_file>
+        pytest_runtest_makereport [hook]
+            item: <Function test_to_file>
+            call: <CallInfo when='call' excinfo=<ExceptionInfo KeyError('asctime') tblen=29>>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_log.py::test_to_file' when='call' outcome='failed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_log.py::test_to_file' when='call' outcome='failed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_log.py::test_to_file' when='call' outcome='failed'>
+              config: <_pytest.config.Config object at 0x1038b5e50>
+          finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_exception_interact [hook]
+            node: <Function test_to_file>
+            call: <CallInfo when='call' excinfo=<ExceptionInfo KeyError('asctime') tblen=3>>
+            report: <TestReport 'tests/test_log.py::test_to_file' when='call' outcome='failed'>
+        finish pytest_exception_interact --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_to_file>
+            nextitem: <Function test_report>
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_Module__pytest_setup_function' scope='function' baseid='tests/test_log.py'>
+              request: <SubRequest '_Module__pytest_setup_function' for <Function test_to_file>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_to_file>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_log.py::test_to_file' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_log.py::test_to_file' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_log.py::test_to_file' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x1038b5e50>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/test_log.py::test_to_file
+            location: ('tests/test_log.py', 31, 'test_to_file')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_report>
+          nextitem: <Function test_send_log>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_log.py::test_report
+            location: ('tests/test_log.py', 43, 'test_report')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_report>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='_Module__pytest_setup_function' scope='function' baseid='tests/test_log.py'>
+              request: <SubRequest '_Module__pytest_setup_function' for <Function test_report>>
+          finish pytest_fixture_setup --> None [hook]
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_report>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_log.py::test_report' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_log.py::test_report' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_log.py::test_report' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x1038b5e50>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_report>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_report>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_report>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_log.py::test_report' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_log.py::test_report' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_log.py::test_report' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x1038b5e50>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_report>
+            nextitem: <Function test_send_log>
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_Module__pytest_setup_function' scope='function' baseid='tests/test_log.py'>
+              request: <SubRequest '_Module__pytest_setup_function' for <Function test_report>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_report>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_log.py::test_report' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_log.py::test_report' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_log.py::test_report' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x1038b5e50>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/test_log.py::test_report
+            location: ('tests/test_log.py', 43, 'test_report')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_send_log>
+          nextitem: None
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_log.py::test_send_log
+            location: ('tests/test_log.py', 47, 'test_send_log')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_send_log>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='_Module__pytest_setup_function' scope='function' baseid='tests/test_log.py'>
+              request: <SubRequest '_Module__pytest_setup_function' for <Function test_send_log>>
+          finish pytest_fixture_setup --> None [hook]
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_send_log>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_log.py::test_send_log' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_log.py::test_send_log' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_log.py::test_send_log' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x1038b5e50>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_send_log>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_send_log>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_send_log>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_log.py::test_send_log' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_log.py::test_send_log' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_log.py::test_send_log' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x1038b5e50>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_send_log>
+            nextitem: None
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_Module__pytest_setup_function' scope='function' baseid='tests/test_log.py'>
+              request: <SubRequest '_Module__pytest_setup_function' for <Function test_send_log>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_send_log>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_log.py::test_send_log' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_log.py::test_send_log' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_log.py::test_send_log' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x1038b5e50>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/test_log.py::test_send_log
+            location: ('tests/test_log.py', 47, 'test_send_log')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+    finish pytest_runtestloop --> True [hook]
+    pytest_sessionfinish [hook]
+        session: <Session FluentMultiLog exitstatus=<ExitCode.TESTS_FAILED: 1> testsfailed=1 testscollected=6>
+        exitstatus: ExitCode.TESTS_FAILED
+      pytest_terminal_summary [hook]
+          terminalreporter: <_pytest.terminal.TerminalReporter object at 0x103a5e950>
+          exitstatus: ExitCode.TESTS_FAILED
+          config: <_pytest.config.Config object at 0x1038b5e50>
+      find_module called for: pygments [assertion]
+      find_module called for: pygments [assertion]
+      find_module called for: pygments [assertion]
+      find_module called for: wcwidth [assertion]
+      find_module called for: wcwidth.wcwidth [assertion]
+      find_module called for: pkg_resources [assertion]
+      find_module called for: pkgutil [assertion]
+      find_module called for: plistlib [assertion]
+      find_module called for: xml [assertion]
+      find_module called for: xml.parsers [assertion]
+      find_module called for: xml.parsers.expat [assertion]
+      find_module called for: pyexpat [assertion]
+      find_module called for: pkg_resources.extern [assertion]
+      find_module called for: pkg_resources.extern.six [assertion]
+      find_module called for: pkg_resources._vendor [assertion]
+      find_module called for: pkg_resources._vendor.six [assertion]
+      find_module called for: pkg_resources.extern.six.moves [assertion]
+      find_module called for: pkg_resources._vendor.six.moves [assertion]
+      find_module called for: pkg_resources.py31compat [assertion]
+      find_module called for: pkg_resources.extern.appdirs [assertion]
+      find_module called for: pkg_resources._vendor.appdirs [assertion]
+      find_module called for: pkg_resources.extern.packaging [assertion]
+      find_module called for: pkg_resources._vendor.packaging [assertion]
+      find_module called for: pkg_resources._vendor.packaging.__about__ [assertion]
+      find_module called for: pkg_resources.extern.packaging.version [assertion]
+      find_module called for: pkg_resources.extern.packaging._structures [assertion]
+      find_module called for: pkg_resources.extern.packaging.specifiers [assertion]
+      find_module called for: pkg_resources.extern.packaging._compat [assertion]
+      find_module called for: pkg_resources.extern.packaging.requirements [assertion]
+      find_module called for: pkg_resources.extern.pyparsing [assertion]
+      find_module called for: pkg_resources._vendor.pyparsing [assertion]
+      find_module called for: pkg_resources.extern.six.moves.urllib [assertion]
+      find_module called for: pkg_resources._vendor.six.moves.urllib [assertion]
+      find_module called for: pkg_resources.extern.packaging.markers [assertion]
+      find_module called for: pkg_resources.py2_warn [assertion]
+      find_module called for: sysconfig [assertion]
+      find_module called for: _osx_support [assertion]
+      find_module called for: _sysconfigdata_m_darwin_darwin [assertion]
+      find_module called for: wcwidth.table_wide [assertion]
+      find_module called for: wcwidth.table_zero [assertion]
+        pytest_report_teststatus [hook]
+            report: <TestReport 'tests/test_log.py::test_to_file' when='call' outcome='failed'>
+            config: <_pytest.config.Config object at 0x1038b5e50>
+        finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+      finish pytest_terminal_summary --> [] [hook]
+    finish pytest_sessionfinish --> [] [hook]
+    pytest_unconfigure [hook]
+        config: <_pytest.config.Config object at 0x1038b5e50>
+    finish pytest_unconfigure --> [] [hook]

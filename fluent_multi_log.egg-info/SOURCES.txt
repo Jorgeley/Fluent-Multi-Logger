@@ -1,0 +1,6 @@
+setup.cfg
+setup.py
+fluent_multi_log.egg-info/PKG-INFO
+fluent_multi_log.egg-info/SOURCES.txt
+fluent_multi_log.egg-info/dependency_links.txt
+fluent_multi_log.egg-info/top_level.txt
