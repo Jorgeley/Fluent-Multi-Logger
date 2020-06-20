@@ -1,7 +1,7 @@
 ## Fluent Multi Log
 This is a multi log fluent classes project, the main idea is to have different logs files, formats etc.
 
-The main Log class has all the main methods, the AnotherLog and AnotherOneLog extend it and have their own format and configuration.
+The main Log class has all the main methods, the AppLog, AnotherLog and AnotherOneLog extend it and have their own format and configuration.
 
 It can be extended to implement more functionalities.
 
@@ -14,7 +14,7 @@ It can be extended to implement more functionalities.
 
 \* ***you can also use pipenv if you want***.
 
-###Run
+### Run
 Before running it, create log directories manually (if not already created):
 * `mkdir ./logs`
 
@@ -26,5 +26,5 @@ to run the app just do (considering you're into main folder):
 
 `python3 main.py`
 
-####Author
+#### Author
 >jorgeley@gmail.com
