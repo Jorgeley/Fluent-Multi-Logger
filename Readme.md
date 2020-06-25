@@ -5,7 +5,7 @@ The main Log class has all the main methods, the AppLog, AnotherLog and AnotherO
 
 It can be extended to implement more functionalities.
 
-###Installation 
+### Installation 
 * Clone this repository and cd into it
 * Install dependencies:
     * `pip3 install -r requirements.txt`
